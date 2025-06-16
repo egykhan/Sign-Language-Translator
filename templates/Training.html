@@ -8,7 +8,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign Language Translator</title>
+    <title>تعلم لغة الإشارة</title>
 
     <script src="https://kit.fontawesome.com/a658a7b479.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/@tensorflow/tfjs"></script>
@@ -30,21 +30,21 @@
         <span class="navbar-toggle" id="js-navbar-toggle">
             <button class="togglebtn" onClick={this.buttonclicked}> <i class="fas fa-bars"></i></button>
         </span>
-        <h5><a href="../index.html" class="logo">Sign Language <span>Translator</span></a></h5>
+        <h5><a href="../index.html" class="logo">تعلم لغة <span>الإشارة</span></a></h5>
         <ul class="main-nav" id="js-menu">
             <li>
-                <a href="../index.html" class="nav-links">Tutorials</a>
+                <a href="../index.html" class="nav-links">أمثلة</a>
             </li>
             <li>
-                <a href="./Training.html" class="nav-links orange">Training</a>
-            </li>
-
-            <li>
-                <a href="Model.html" class="nav-links">Test Your Skill</a>
+                <a href="./Training.html" class="nav-links orange">التدريب</a>
             </li>
 
             <li>
-                <a href="./About.html" class="nav-links">About</a>
+                <a href="Model.html" class="nav-links">الإختبار</a>
+            </li>
+
+            <li>
+                <a href="./About.html" class="nav-links">حول</a>
             </li>
 
         </ul>
@@ -52,13 +52,12 @@
 
 
     <div class="alert alert-success">
-        Please train atleast 30 images for each class and,for more information
-        <a href="https://youtu.be/TQHRHdGpT70" style="color: green;">click
-            here </a>
+       يرجى تدريب ما لا يقل عن 30 صورة لكل إشارة
+
     </div>
 
 
-    <h1 class="myheading"><i class="fab fa-joomla"></i> Train Your Own Model</h1><br>
+    <h1 class="myheading"><i class="fab fa-joomla"></i> تدريب</h1><br>
 
 
     <div class="row">
@@ -73,13 +72,13 @@
 
                 <div class="grey-bg">
                     <div class="row text-center">
-                        <h3>Prediction: <span id="predictions"></span></h3>
-                        <h3>Probability : <span id="confidence"></span> %</h3>
+                        <h3>درجة التنبؤ: <span id="predictions"></span></h3>
+                        <h3>درجة الإحتمال : <span id="confidence"></span> %</h3>
                     </div>
 
                 </div>
 
-                <button id='btnSpeak' class="dark btn-lg btn-shadow mb-5" id="speak">Speak <i
+                <button id='btnSpeak' class="dark btn-lg btn-shadow mb-5" id="speak">نطق <i
                         class="fas fa-microphone ml"></i></button>
 
             </div>
@@ -90,9 +89,9 @@
             <!-- <AddContainer></AddContainer> -->
             <div>
                 <div class="model">
-                    <button class="dark btn-lg btn-shadow " id="save_button">Download Model <i
+                    <button class="dark btn-lg btn-shadow " id="save_button">تحميل النموذج المدرب <i
                             class="fas fa-download"></i></button>
-                    <input id="load_button" class="fileinputs" type="file" accept=".json">
+                     <input id="load_button" class="fileinputs" type="file" accept=".json">
                     <!-- <label for="upload-photo">Browse...</label> -->
 
                 </div>
@@ -103,7 +102,7 @@
                     <br> <br>
 
                     <input id="inputClassName" type="text" placeholder="Enter Class Name Here" name="option" />
-                    <button class="dark btn-lg btn-shadow mr-5" id="add-button">Add <i
+                    <button class="dark btn-lg btn-shadow mr-5" id="add-button">إضافة <i
                             class="fas  fa-plus fa-1x"></i></button>
                 </div>
                 <br>
