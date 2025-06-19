@@ -6,6 +6,5 @@ https://www.npmjs.com/package/@tensorflow-models/knn-classifier
 https://www.youtube.com/watch?v=KTNqXwkLuM4
 
 # Github :
-https://github.com/SufiyaanNadeem/Sign-Language-Translator
 https://github.com/shekit/alexa-sign-language-translator
 https://github.com/baekkyungji/tensorflowjs-knn-classification
